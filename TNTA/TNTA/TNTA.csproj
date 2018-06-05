@@ -46,6 +46,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DAO\AccountDAO.cs" />
+    <Compile Include="DAO\BTDocDAO.cs" />
+    <Compile Include="DAO\BTNguPhapDAO.cs" />
+    <Compile Include="DAO\CauHoiDocDAO.cs" />
+    <Compile Include="DAO\ChiTiet_DocDAO.cs" />
+    <Compile Include="DAO\ChiTiet_NguPhapDAO.cs" />
+    <Compile Include="DAO\DataProvider.cs" />
+    <Compile Include="DAO\LoaiThanhVienDAO.cs" />
+    <Compile Include="DAO\LopDAO.cs" />
+    <Compile Include="DAO\MaDeThiDAO.cs" />
+    <Compile Include="DAO\QuyenSDDAO.cs" />
+    <Compile Include="DAO\SinhVienDAO.cs" />
+    <Compile Include="DAO\SinhVienLopDAO.cs" />
+    <Compile Include="DAO\SinhVien_KyThiDAO.cs" />
+    <Compile Include="DAO\ThanhVienDAO.cs" />
+    <Compile Include="DAO\TTKTDAO.cs" />
     <Compile Include="DTO\Account.cs" />
     <Compile Include="DTO\BTDoc.cs" />
     <Compile Include="DTO\BTNguPhap.cs" />
@@ -86,6 +102,12 @@
     <Compile Include="GUI\Form_LuaChon.designer.cs">
       <DependentUpon>Form_LuaChon.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI\Form_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Form_Main.designer.cs">
+      <DependentUpon>Form_Main.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="GUI\Form_CaNhanCuaSV.resx">
@@ -96,6 +118,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\Form_LuaChon.resx">
       <DependentUpon>Form_LuaChon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Form_Main.resx">
+      <DependentUpon>Form_Main.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
