@@ -114,6 +114,12 @@
     <Compile Include="GUI\Form_Main.designer.cs">
       <DependentUpon>Form_Main.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI\UC_CauHoi.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\UC_CauHoi.designer.cs">
+      <DependentUpon>UC_CauHoi.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI\UC_HeThong.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -136,6 +142,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\Form_Main.resx">
       <DependentUpon>Form_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UC_CauHoi.resx">
+      <DependentUpon>UC_CauHoi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\UC_HeThong.resx">
       <DependentUpon>UC_HeThong.cs</DependentUpon>
