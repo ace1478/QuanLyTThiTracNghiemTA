@@ -84,6 +84,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI\Form_AddDeThi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Form_AddDeThi.designer.cs">
+      <DependentUpon>Form_AddDeThi.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI\Form_AddSV.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -101,6 +107,12 @@
     </Compile>
     <Compile Include="GUI\Form_DoiMatKhau.designer.cs">
       <DependentUpon>Form_DoiMatKhau.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Form_DSSV_KyThi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Form_DSSV_KyThi.designer.cs">
+      <DependentUpon>Form_DSSV_KyThi.cs</DependentUpon>
     </Compile>
     <Compile Include="GUI\Form_Login.cs">
       <SubType>Form</SubType>
@@ -120,6 +132,30 @@
     <Compile Include="GUI\Form_Main.designer.cs">
       <DependentUpon>Form_Main.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI\Form_QuanLyBoDeThi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Form_QuanLyBoDeThi.designer.cs">
+      <DependentUpon>Form_QuanLyBoDeThi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Form_QuanLyKyThi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Form_QuanLyKyThi.designer.cs">
+      <DependentUpon>Form_QuanLyKyThi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Form_QuanLyThi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Form_QuanLyThi.designer.cs">
+      <DependentUpon>Form_QuanLyThi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Form_XoaMaDE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Form_XoaMaDE.designer.cs">
+      <DependentUpon>Form_XoaMaDE.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI\UC_CauHoi.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -132,6 +168,12 @@
     <Compile Include="GUI\UC_HeThong.designer.cs">
       <DependentUpon>UC_HeThong.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI\UC_QuanLyKyThi.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\UC_QuanLyKyThi.designer.cs">
+      <DependentUpon>UC_QuanLyKyThi.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI\UC_SinhVien.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -140,6 +182,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="GUI\Form_AddDeThi.resx">
+      <DependentUpon>Form_AddDeThi.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUI\Form_AddSV.resx">
       <DependentUpon>Form_AddSV.cs</DependentUpon>
     </EmbeddedResource>
@@ -148,6 +193,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\Form_DoiMatKhau.resx">
       <DependentUpon>Form_DoiMatKhau.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Form_DSSV_KyThi.resx">
+      <DependentUpon>Form_DSSV_KyThi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\Form_Login.resx">
       <DependentUpon>Form_Login.cs</DependentUpon>
@@ -158,11 +206,26 @@
     <EmbeddedResource Include="GUI\Form_Main.resx">
       <DependentUpon>Form_Main.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Form_QuanLyBoDeThi.resx">
+      <DependentUpon>Form_QuanLyBoDeThi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Form_QuanLyKyThi.resx">
+      <DependentUpon>Form_QuanLyKyThi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Form_QuanLyThi.resx">
+      <DependentUpon>Form_QuanLyThi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Form_XoaMaDE.resx">
+      <DependentUpon>Form_XoaMaDE.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUI\UC_CauHoi.resx">
       <DependentUpon>UC_CauHoi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\UC_HeThong.resx">
       <DependentUpon>UC_HeThong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UC_QuanLyKyThi.resx">
+      <DependentUpon>UC_QuanLyKyThi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\UC_SinhVien.resx">
       <DependentUpon>UC_SinhVien.cs</DependentUpon>
@@ -188,6 +251,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
