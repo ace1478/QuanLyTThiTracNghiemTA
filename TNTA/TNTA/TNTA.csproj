@@ -238,6 +238,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -252,8 +253,147 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Resources\" />
+    <None Include="Resources\0071 - b4KrxJ5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0071 - b4KrxJ51.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\administrator-2-128.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\archive-2-64.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check-mark-8-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\conference-call-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\conference-call-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit-5-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\group-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\group-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\help-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home-5-24.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\house-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_3_avatar_2754579.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_010_95923.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_add1-_32378 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_avatar_1814089.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_back_38976.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_Cancel_728918.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_edit_user_6020.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_edit-trash_9263.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_edit-validated_85309.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_folder_red_backup_14931.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_go-next_118773.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_kde-add-folder-to-archive_23424.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_lock_318582.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_Log Out_27856.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_Save_70652.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_user_318585.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_userconfig_7388.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\key-4-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\newspaper-12-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pages-2-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report-2-64.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report-3-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report-3-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report-3-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reset.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search-3-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\side-right-view-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\student-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tải xuống %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\text-file-4-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user-24.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
