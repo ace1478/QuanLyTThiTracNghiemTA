@@ -150,6 +150,12 @@
     <Compile Include="GUI\Form_QuanLyThi.designer.cs">
       <DependentUpon>Form_QuanLyThi.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI\Form_Thi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Form_Thi.designer.cs">
+      <DependentUpon>Form_Thi.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI\Form_XoaMaDE.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -214,6 +220,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\Form_QuanLyThi.resx">
       <DependentUpon>Form_QuanLyThi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Form_Thi.resx">
+      <DependentUpon>Form_Thi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\Form_XoaMaDE.resx">
       <DependentUpon>Form_XoaMaDE.cs</DependentUpon>
